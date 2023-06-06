@@ -1,0 +1,7 @@
+Number of positive sents: 24616	Number of negative sents: 14597	Number of all sents: 39213
+Number of positive words: 780056	Number of negative words: 479749	Number of all words: 1259805
+Number of unique positive words: 20253	Number of unique negative words: 16918	Number of unique all words: 22778
+Number of only positive words: 5860	Number of only negative words: 2525	Number of intersected words: 14393
+Top 10 positive words: ['G', 'E', 'Kick-off', 'halt', 'Pasalic', '(Runners-up', 'group-stage', 'resounding', "afternoon's", '(Winners']	Top 10 negative words: ['reinforcements', 'Camara', 'Soderlund', 'McGeady', 'Gianluca', 'waving', 'Fletcher', 'Ngakia', 'hurdle', "Ndombele's"]
+Top 10 Common positive words: ['vs', 'resolve', 'all-round', '&', 'best,', 'Goals', 'linking', 'Cristante', 'mountain', 'contender']	Top 10 Common negative words: ['Hall', 'gaping,', 'Petkovic', 'Branthwaite', 'Lasse', 'Schneiderlin', 'Zouma,', 'Oliveira', 'Willian,', 'unwittingly']
+Top 10 positive words TFIDF: ['G', 'E', 'Kick-off', 'halt', 'Pasalic', '(Runners-up', 'group-stage', 'resounding', "afternoon's", '(Winners']	Top 10 negative words TFIDF: ['reinforcements', 'Camara', 'Soderlund', 'McGeady', 'Gianluca', 'waving', 'Fletcher', 'Ngakia', 'hurdle', "Ndombele's"]

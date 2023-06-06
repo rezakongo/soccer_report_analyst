@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.2)  6 JUN 2023 09:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.2)  6 JUN 2023 09:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**test.tex
-(./test.tex
+**./Document/report.tex
+(./Document/report.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -102,46 +102,10 @@ Package shellesc Info: Restricted shell escape enabled on input line 77.
 \c@csvrow=\count280
 \c@csvcol=\count281
 \csv@out=\write3
-) (./test.aux)
-\openout1 = `test.aux'.
+) (./report.aux)
+\openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
-
-! Illegal parameter number in definition of \csv@col@body.
-<to be read again> 
-                   O
-l.9     \csvautotabular[]{./data/clean/result.csv}
-                                                  
-? x
- 
-Here is how much of TeX's memory you used:
- 2421 strings out of 480238
- 52095 string characters out of 5895852
- 344364 words of memory out of 5000000
- 20391 multiletter control sequences out of 15000+600000
- 469259 words of font info for 28 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 68i,8n,77p,4084b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
-No pages of output.
-PDF statistics:
- 0 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Inf

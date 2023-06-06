@@ -243,29 +243,47 @@ def get_10_wordsـby_tfidf():
 
 
 
-result=""
+result={}
 positive_sents_n, negative_sents_n, all_sents_n=get_sents_n()
-result+="Number of positive sents: "+str(positive_sents_n)+"\tNumber of negative sents: "+str(negative_sents_n)+"\tNumber of all sents: "+str(all_sents_n)+'\n'
+result["Number of positive sents"]=str(positive_sents_n)
+result["Number of negative sents"]=str(negative_sents_n)
+result["Number of all sents"]=str(all_sents_n)
 
 positive_words_n,negative_words_n,all_words_n=get_words_n()
-result+="Number of positive words: "+str(positive_words_n)+"\tNumber of negative words: "+str(negative_words_n)+"\tNumber of all words: "+str(all_words_n)+'\n'
+result["Number of positive words"]=str(positive_words_n)
+result["Number of negative words"]=str(negative_words_n)
+result["Number of all words"]=str(all_words_n)
 
-positive_words_n,negative_words_n,all_words_n=get_unique_words_n()
-result+="Number of unique positive words: "+str(positive_words_n)+"\tNumber of unique negative words: "+str(negative_words_n)+"\tNumber of unique all words: "+str(all_words_n)+'\n'
+positive_unique_words_n,negative_unique_words_n,all_unique_words_n=get_unique_words_n()
+result["Number of unique positive words"]=str(positive_unique_words_n)
+result["Number of unique negative words"]=str(negative_unique_words_n)
+result["Number of unique all words"]=str(all_unique_words_n)
 
 positive_words_n,negative_words_n,intersected_words_n=get_union_intersection_words_n()
-result+="Number of only positive words: "+str(positive_words_n)+"\tNumber of only negative words: "+str(negative_words_n)+"\tNumber of intersected words: "+str(intersected_words_n)+'\n'
+result["Number of only positive words"]=str(positive_words_n)
+result["Number of only negative words"]=str(negative_words_n)
+result["Number of intersected words"]=str(intersected_words_n)
 
 top_10_positive_words, top_10_negative_words=get_10_unique_words()
-result+="Top 10 positive words: "+str(top_10_positive_words)+"\tTop 10 negative words: "+str(top_10_negative_words)+'\n'
+for i in range(len(top_10_positive_words)):
+    result["Top 10 positive words "+str(i+1)]=top_10_positive_words[i]
+for i in range(len(top_10_negative_words)):
+    result["Top 10 negative words"+str(i+1)]=top_10_negative_words[i]
 
-top_10_positive_words, top_10_negative_words=get_10_common_words()
-result+="Top 10 Common positive words: "+str(top_10_positive_words)+"\tTop 10 Common negative words: "+str(top_10_negative_words)+'\n'
+top_10_common_positive_words, top_10_common_negative_words=get_10_common_words()
+for i in range(len(top_10_common_positive_words)):
+    result["Top 10 Common positive words "+str(i+1)]=top_10_common_positive_words[i]
+for i in range(len(top_10_common_negative_words)):
+    result["Top 10 Common negative words"+str(i+1)]=top_10_common_negative_words[i]
 
-top_10_positive_words, top_10_negative_words=get_10_wordsـby_tfidf()
-result+="Top 10 positive words TFIDF: "+str(top_10_positive_words)+"\tTop 10 negative words TFIDF: "+str(top_10_negative_words)+'\n'
+top_10_tfidf_positive_words, top_10_tfidf_negative_words=get_10_wordsـby_tfidf()
+for i in range(len(top_10_tfidf_positive_words)):
+    result["Top 10 positive words TFIDF "+str(i+1)]=top_10_tfidf_positive_words[i]
+for i in range(len(top_10_tfidf_negative_words)):
+    result["Top 10 negative words TFIDF "+str(i+1)]=top_10_tfidf_negative_words[i]
 
-f = open("./metrics/results.txt", "a")
-f.truncate(0)
-f.write(result)
-f.close()
+print(result)
+
+result_df=pd.DataFrame(result,index=[0])
+result_df.to_csv("./metrics/metrics_seperared.csv")
+
