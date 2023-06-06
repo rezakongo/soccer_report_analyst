@@ -1,2 +1,73 @@
-,Number of positive sents,Number of negative sents,Number of all sents,Number of positive words,Number of negative words,Number of all words,Number of unique positive words,Number of unique negative words,Number of unique all words,Number of only positive words,Number of only negative words,Number of intersected words,Top 10 positive words 1,Top 10 positive words 2,Top 10 positive words 3,Top 10 positive words 4,Top 10 positive words 5,Top 10 positive words 6,Top 10 positive words 7,Top 10 positive words 8,Top 10 positive words 9,Top 10 positive words 10,Top 10 negative words1,Top 10 negative words2,Top 10 negative words3,Top 10 negative words4,Top 10 negative words5,Top 10 negative words6,Top 10 negative words7,Top 10 negative words8,Top 10 negative words9,Top 10 negative words10,Top 10 Common positive words 1,Top 10 Common positive words 2,Top 10 Common positive words 3,Top 10 Common positive words 4,Top 10 Common positive words 5,Top 10 Common positive words 6,Top 10 Common positive words 7,Top 10 Common positive words 8,Top 10 Common positive words 9,Top 10 Common positive words 10,Top 10 Common negative words1,Top 10 Common negative words2,Top 10 Common negative words3,Top 10 Common negative words4,Top 10 Common negative words5,Top 10 Common negative words6,Top 10 Common negative words7,Top 10 Common negative words8,Top 10 Common negative words9,Top 10 Common negative words10,Top 10 positive words TFIDF 1,Top 10 positive words TFIDF 2,Top 10 positive words TFIDF 3,Top 10 positive words TFIDF 4,Top 10 positive words TFIDF 5,Top 10 positive words TFIDF 6,Top 10 positive words TFIDF 7,Top 10 positive words TFIDF 8,Top 10 positive words TFIDF 9,Top 10 positive words TFIDF 10,Top 10 negative words TFIDF 1,Top 10 negative words TFIDF 2,Top 10 negative words TFIDF 3,Top 10 negative words TFIDF 4,Top 10 negative words TFIDF 5,Top 10 negative words TFIDF 6,Top 10 negative words TFIDF 7,Top 10 negative words TFIDF 8,Top 10 negative words TFIDF 9,Top 10 negative words TFIDF 10
-0,24616,14597,39213,780056,479749,1259805,20253,16918,22778,5860,2525,14393,G,E,halt,Kick-off,Pasalic,(Runners-up,group-stage,resounding,afternoon's,(Winners,reinforcements,Camara,Soderlund,McGeady,Gianluca,waving,Fletcher,Georgios,Ngakia,Scales,vs,resolve,all-round,"best,",&,Goals,linking,mountain,Cristante,Super,Hall,Branthwaite,Petkovic,"gaping,",Lasse,Schneiderlin,sailing,ineffectual,unwittingly,"Willian,",G,E,halt,Kick-off,Pasalic,(Runners-up,group-stage,resounding,afternoon's,(Winners,reinforcements,Camara,Soderlund,McGeady,Gianluca,waving,Fletcher,Georgios,Ngakia,Scales
+,keys,values
+0,Number of positive sents,24616
+1,Number of negative sents,14597
+2,Number of all sents,39213
+3,Number of positive words,780056
+4,Number of negative words,479749
+5,Number of all words,1259805
+6,Number of unique positive words,20253
+7,Number of unique negative words,16918
+8,Number of unique all words,22778
+9,Number of only positive words,5860
+10,Number of only negative words,2525
+11,Number of intersected words,14393
+12,Top 10 positive words 1,G
+13,Top 10 positive words 2,E
+14,Top 10 positive words 3,halt
+15,Top 10 positive words 4,Kick-off
+16,Top 10 positive words 5,Pasalic
+17,Top 10 positive words 6,(Runners-up
+18,Top 10 positive words 7,group-stage
+19,Top 10 positive words 8,resounding
+20,Top 10 positive words 9,afternoon's
+21,Top 10 positive words 10,displays
+22,Top 10 negative words1,reinforcements
+23,Top 10 negative words2,Camara
+24,Top 10 negative words3,McGeady
+25,Top 10 negative words4,Soderlund
+26,Top 10 negative words5,waving
+27,Top 10 negative words6,Gianluca
+28,Top 10 negative words7,Fletcher
+29,Top 10 negative words8,Scales
+30,Top 10 negative words9,Nyom
+31,Top 10 negative words10,Georgios
+32,Top 10 Common positive words 1,vs
+33,Top 10 Common positive words 2,resolve
+34,Top 10 Common positive words 3,all-round
+35,Top 10 Common positive words 4,"best,"
+36,Top 10 Common positive words 5,&
+37,Top 10 Common positive words 6,Goals
+38,Top 10 Common positive words 7,linking
+39,Top 10 Common positive words 8,mountain
+40,Top 10 Common positive words 9,Cristante
+41,Top 10 Common positive words 10,Super
+42,Top 10 Common negative words1,Hall
+43,Top 10 Common negative words2,Branthwaite
+44,Top 10 Common negative words3,"gaping,"
+45,Top 10 Common negative words4,Petkovic
+46,Top 10 Common negative words5,Schneiderlin
+47,Top 10 Common negative words6,Lasse
+48,Top 10 Common negative words7,launch
+49,Top 10 Common negative words8,Oliveira
+50,Top 10 Common negative words9,"Zouma,"
+51,Top 10 Common negative words10,ineffectual
+52,Top 10 positive words TFIDF 1,G
+53,Top 10 positive words TFIDF 2,E
+54,Top 10 positive words TFIDF 3,halt
+55,Top 10 positive words TFIDF 4,Kick-off
+56,Top 10 positive words TFIDF 5,Pasalic
+57,Top 10 positive words TFIDF 6,(Runners-up
+58,Top 10 positive words TFIDF 7,group-stage
+59,Top 10 positive words TFIDF 8,resounding
+60,Top 10 positive words TFIDF 9,afternoon's
+61,Top 10 positive words TFIDF 10,displays
+62,Top 10 negative words TFIDF 1,reinforcements
+63,Top 10 negative words TFIDF 2,Camara
+64,Top 10 negative words TFIDF 3,McGeady
+65,Top 10 negative words TFIDF 4,Soderlund
+66,Top 10 negative words TFIDF 5,waving
+67,Top 10 negative words TFIDF 6,Gianluca
+68,Top 10 negative words TFIDF 7,Fletcher
+69,Top 10 negative words TFIDF 8,Scales
+70,Top 10 negative words TFIDF 9,Nyom
+71,Top 10 negative words TFIDF 10,Georgios

@@ -284,6 +284,9 @@ for i in range(len(top_10_tfidf_negative_words)):
 
 print(result)
 
-result_df=pd.DataFrame(result,index=[0])
+final_metrics={}
+final_metrics['keys']=list(result.keys())
+final_metrics['values']=list(result.values())
+result_df=pd.DataFrame(final_metrics)
 result_df.to_csv("./metrics/metrics_seperared.csv")
 

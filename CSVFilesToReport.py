@@ -27,3 +27,7 @@ n_datas.to_csv("./Document/negative_data.csv")
 p_datas=pd.read_csv("./data/Seperated_By_Labels/positives.csv")
 p_datas=p_datas[:10]
 p_datas.to_csv("./Document/positive_data.csv")
+
+metrics=pd.read_csv("./metrics/metrics_seperared.csv")
+metrics=metrics[:10]
+metrics.to_csv("./Document/metrics_seperared.csv")

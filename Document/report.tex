@@ -26,22 +26,18 @@ All matches page link: \href{https://www.skysports.com/premier-league-results}{C
 Then we have been crawled urls of pages contains reports from this page and save them as a csv file. We have developed a spider that do this. you can see it in MatchURLSpider.py.
 
 Results:
-\begin{table}
-    \begin{center}
-        \csvautotabular[]{urls.csv}
-    \end{center}
-\end{table}
+\begin{center}
+\csvautotabular[]{urls.csv}
+\end{center}
 
 
 After that we have crawld reports and player ratings from each urls in dataset above. This informations have been crawld by a spider that you can see in SoccerSpider.py.
 In this spider we read urls CSV file and then crawl all informations from each url.
 
 Results: 
-\begin{table}
-    \begin{center}
-        \csvautotabular[]{row_data.csv}
-    \end{center}
-\end{table}
+\begin{center}
+\csvautotabular[]{row_data.csv}
+\end{center}
 
 \subsection{Setp 2: Cleaning Data}
 For this section we have to clean datas that we crawled before. We should tokenize reports of matchs by sentences and words. 
@@ -49,20 +45,17 @@ For first one we split report by dots and for second one we split them by spaces
 We should set ratings true if they are bigger than 6 and set false otherwise.
 
 tokenized by sentences:
+\begin{center}
+\csvautotabular[]{sentence_broken_data.csv}
+\end{center}
+You can also see it on : \href{https://huggingface.co/datasets/ParsaKgvr/socce_report_analysis}{Click here}
 
-\begin{table}
-    \begin{center}
-        \csvautotabular[]{sentence_broken_data.csv}
-    \end{center}
-\end{table}
 
 tokenized by words:
+\begin{center}
+\csvautotabular[]{word_broken_data.csv}
+\end{center}
 
-\begin{table}
-    \begin{center}
-        \csvautotabular[]{word_broken_data.csv}
-    \end{center}
-\end{table}
 
 
 \subsection{Step 3: Metrics}
@@ -72,24 +65,22 @@ and positive players and then save them in 2 seperated CSV file; negative and po
 In this datasets, there are seperated sentences. 
 
 Results for negative:
-
-\begin{table}
-    \begin{center}
-        \csvautotabular[]{negative_data.csv}
-    \end{center}
-\end{table}
+\begin{center}
+\csvautotabular[]{negative_data.csv}
+\end{center}
 
 Results for positives:
+\begin{center}
+\csvautotabular[]{positive_data.csv}
+\end{center}
 
-\begin{table}
-    \begin{center}
-        \csvautotabular[]{positive_data.csv}
-    \end{center}
-\end{table}
 
 
 Then we should get metrics from that datas. So we write a script thet get all metrics. In SeperatedDataGetMetrics.py all metrics of seperated datas
 has been gotten. You can see all metrics as follow:
+\begin{center}
+\csvautotabular[]{metrics_seperared.csv}
+\end{center}
 
 
 top10CommonNegativeWordsFrequency:
